@@ -1,0 +1,17 @@
+#mørklys{
+    
+}
+
+before::button{
+    background-color: black
+}
+
+after::button{
+    background-color: white;
+}
+
+:single-button
+
+button:not (:checked) ~ mørklys{
+    
+}
